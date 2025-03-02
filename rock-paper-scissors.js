@@ -30,6 +30,9 @@ function playround(humanChoice, computerChoice) {
         return 'It is a tie';
 
 
+    } else if(humanChoice === "rock" && computerChoice === "scissors"){
+        return "You win! Rock crushes scissors!";
+        humanScore++;
     }
 
 }
